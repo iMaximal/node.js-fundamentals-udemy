@@ -2,9 +2,12 @@ console.log('Starting app.')
 
 const fs = require('fs')
 const os = require('os')
+const notes = require('./notes')
 
-const user = os.userInfo()
+console.log('Result:', notes.add(9, -2))
 
-fs.appendFile('greetings.txt', `Hello ${user.username}!`, (err) => {
-  if (err) throw err
-})
+// const user = os.userInfo()
+//
+// fs.appendFile('greetings.txt', `Hello ${user.username}!`, (err) => {
+//   if (err) throw err
+// })
