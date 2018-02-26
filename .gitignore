@@ -1,3 +1,6 @@
+# For this project
+greetings.txt
+
 # Don't check auto-generated stuff into git
 coverage
 backup
