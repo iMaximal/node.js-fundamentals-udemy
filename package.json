@@ -1,0 +1,22 @@
+{
+  "name": "node.js-fundamentals-udemy",
+  "version": "1.0.0",
+  "description": "Study project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iMaximal/node.js-fundamentals-udemy.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Maksim Golitsyn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iMaximal/node.js-fundamentals-udemy/issues"
+  },
+  "homepage": "https://github.com/iMaximal/node.js-fundamentals-udemy#readme"
+}
