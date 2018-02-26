@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/iMaximal/node.js-fundamentals-udemy#readme",
   "dependencies": {
-    "lodash": "^4.17.5"
+    "lodash": "^4.17.5",
+    "yargs": "^4.7.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
