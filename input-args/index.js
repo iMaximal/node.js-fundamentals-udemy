@@ -7,9 +7,9 @@ const notes = require('./notes')
 
 const argv = yargs.argv
 const command = process.argv[2] // equal argv._[0]
-console.log('Command: ', command)
+// console.log('Command: ', command)
 // console.log('Process: ', process.argv)
-console.log('Yargs: ', argv)
+// console.log('Yargs: ', argv)
 
 if (command === 'add') {
   const note = notes.addNote(argv.title, argv.body)
@@ -20,7 +20,9 @@ if (command === 'add') {
     console.log('Note title taken')
   }
 } else if (command === 'list') {
-  notes.getAll()
+  const allNotes = notes.getAll()
+  console.log(`Printing ${allNotes.length} note(s).`)
+  allNotes.forEach((note) => notes.logNote(note))
 } else if (command === 'read') {
   const note = notes.getNote(argv.title)
   if (note) {

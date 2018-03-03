@@ -22,3 +22,8 @@ Get Note:
 ````bash
 node index.js read --title="to buy"
 ````
+
+Get All Notes:
+````bash
+node index.js list
+````
