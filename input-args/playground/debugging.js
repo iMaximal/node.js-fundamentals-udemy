@@ -1,4 +1,5 @@
 // node inspect debugging.js
+// node --inspect-brk debugging.js
 // n - next; c - continue
 // repl
 const person = {
