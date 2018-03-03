@@ -17,3 +17,8 @@ Delete Note:
 ````bash
 node index.js remove --title="to buy"
 ````
+
+Get Note:
+````bash
+node index.js read --title="to buy"
+````
